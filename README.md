@@ -1,4 +1,4 @@
-# Internet of Things - Gestimsi
+# Internet of Things - 
 ## Beschrijving Project
 ## Documentatie
 ## Groepsleden
