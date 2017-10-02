@@ -21,7 +21,7 @@ vervolgens een bericht naar je telefoon dat er iemand heeft aangebeld, op deze m
 Doordat de bel verbonden is met het systeem, kunnen wij data verzamelen over hoeveel bezoekers men gemiddeld krijgt, of 
 hoe vaak men de bel mist wanneer je niet thuis bent. Deze data kan dan gebruikt worden in statistieken en dergelijken.
 
-![alt text](iot17-iot-timmy-gejo-simon-steven/doc/Images/Documentation LoRaWAN Pic1.jpg)
+![alt text](https://github.com/AP-Elektronica-ICT/iot17-iot-timmy-gejo-simon-steven/blob/master/doc/Images/Documentation%20LoRaWAN%20Pic1.jpg)
 
 ### 2.	Welkom bij binnenkomst
 
