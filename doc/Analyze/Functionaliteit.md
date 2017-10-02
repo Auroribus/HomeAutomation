@@ -35,7 +35,7 @@
    9. 
    10. 
       
-4. As a user I want to be able to have a responsive text to speech system.
+4. As a user I want to be able to have a responsive text to speech system and respons on actions.
    1. SSH to pi
    2. VNC for pi
    3. Instal Alexa on pi
@@ -44,11 +44,11 @@
    6. Setup Speaker through the house 
    7. Setup microphones through the house
    8. Connect everything with LoRaWAN
-   9. Configure Speakers to perfect volume
-   10. Configure microphones for easy use
+   9. Add detection system to door
+   10. Make respons for detection door
 
 5. As a user I want to connect my nodes with a long range network system.
-   1.
+   1. 
    2.
    3.
    4.
