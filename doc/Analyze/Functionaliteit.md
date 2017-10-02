@@ -1,5 +1,5 @@
 # User stories en Engineering Tasks
-### 1. As a user i want to be able to control my lights with my voice.
+#### 1. As a user i want to be able to control my lights with my voice.
    
    1. SSH to pi
    2. setup VNC on pi
@@ -12,7 +12,7 @@
    9. LoRaWAN for pi
    10. Connect LoRaWAN
 
-### 2. As a user I want to be able to control my door-lock with a remote controller (cellphone).
+#### 2. As a user I want to be able to control my door-lock with a remote controller (cellphone).
    1. Make doorlock frame
    2. Make pcd for doorlock
    3. installeer bluetooth in doorlock
@@ -24,7 +24,7 @@
    9. Make trusted phone system for bluetooth connection
    10. Test end system.
   
-### 3. As a user I want to be able to receive a message on my phone when someone is ringing my doorbell.
+#### 3. As a user I want to be able to receive a message on my phone when someone is ringing my doorbell.
    1. Make doorbell
    2. Make pcd for doorbell
    3. Add LoRaWAN to doorbell
@@ -36,7 +36,7 @@
    9. 
    10. 
       
-### 4. As a user I want to be able to have a responsive text to speech system and respons on actions.
+#### 4. As a user I want to be able to have a responsive text to speech system and respons on actions.
    1. SSH to pi
    2. VNC for pi
    3. Instal Alexa on pi
@@ -48,7 +48,7 @@
    9. Add detection system to door
    10. Make respons for detection door
 
-### 5. As a user I want to connect my nodes with a long range network system.
+#### 5. As a user I want to connect my nodes with a long range network system.
    1. 
    2.
    3.
