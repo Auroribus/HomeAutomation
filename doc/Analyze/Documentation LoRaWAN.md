@@ -18,6 +18,8 @@ capacity of the gateway. LoRaWAN data rates range from 0.3 kbps to 50 kbps. To m
 and overall network capacity, the LoRaWAN network server is managing the data rate and RF output for each end-device individually
 by means of an adaptive data rate (ADR) scheme.
 
+![alt text](https://github.com/AP-Elektronica-ICT/iot17-iot-timmy-gejo-simon-steven/blob/master/doc/Images/Documentation%20LoRaWAN%20Pic1.jpg)
+
 National wide networks targeting internet of things such as critical infrastructure, confidential personal data or critical 
 functions for the society has a special need for secure communication. This has been solved by several layer of encryption:
 
