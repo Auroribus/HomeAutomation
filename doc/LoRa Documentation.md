@@ -35,20 +35,20 @@ LoRaWAN has several different classes of end-point devices to address the differ
 applications:
 
 
-     Bi-directional end-devices (Class A): End-devices of Class A allow for bi-directional communications whereby each 
-     end-device's uplink transmission is followed by two short downlink receive windows. The transmission slot scheduled
-     by the end-device is based on its own communication needs with a small variation based on a random time basis 
-     (ALOHA-type of protocol). This Class A operation is the lowest power end-device system for applications that only 
-     require downlink communication from the server shortly after the end-device has sent an uplink transmission. 
-     Downlink communications from the server at any other time will have to wait until the next scheduled uplink.
+Bi-directional end-devices (Class A): End-devices of Class A allow for bi-directional communications whereby each 
+end-device's uplink transmission is followed by two short downlink receive windows. The transmission slot scheduled
+by the end-device is based on its own communication needs with a small variation based on a random time basis 
+(ALOHA-type of protocol). This Class A operation is the lowest power end-device system for applications that only 
+require downlink communication from the server shortly after the end-device has sent an uplink transmission. 
+Downlink communications from the server at any other time will have to wait until the next scheduled uplink.
 
 
-     Bi-directional end-devices with scheduled receive slots (Class B): In addition to the Class A random receive windows,
-     Class B devices open extra receive windows at scheduled times. In order for the End-device to open its receive window at
-     the scheduled time it receives a time synchronized Beacon from the gateway. This allows the server to know when the 
-     end-device is listening.
+Bi-directional end-devices with scheduled receive slots (Class B): In addition to the Class A random receive windows,
+Class B devices open extra receive windows at scheduled times. In order for the End-device to open its receive window at
+the scheduled time it receives a time synchronized Beacon from the gateway. This allows the server to know when the 
+end-device is listening.
 
 
 
-     Bi-directional end-devices with maximal receive slots (Class C): End-devices of Class C have nearly continuously open
-     receive windows, only closed when transmitting. Class C
+Bi-directional end-devices with maximal receive slots (Class C): End-devices of Class C have nearly continuously
+open receive windows, only closed when transmitting. Class C
