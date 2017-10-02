@@ -30,11 +30,11 @@
    3. Add LoRaWAN to doorbell
    4. LoRaWAN for pi
    5. Connect doorbell to pi
-   6. Log doorbell on pi when rang
-   7. Send message from pi to phone
-   8.  
-   9. 
-   10. 
+   6. Make database on pi
+   7. Log doorbell on pi when rang in database
+   8. connect pi to phone with MQTT 
+   9. Send message from pi to phone through MQTT
+   10. Show logs on phone  
       
 #### 4. As a user I want to be able to have a responsive text to speech system and respons on actions.
    1. SSH to pi
