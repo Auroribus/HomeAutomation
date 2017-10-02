@@ -1,2 +1,4 @@
-# Internet of Things - [Naam Project]
-Documentatie voor het project voor het vak Internet of Things.
+# Internet of Things - Home Automation
+
+### Doel van het product
+Home automation en monitoring door middel van Speech to Text technologie
