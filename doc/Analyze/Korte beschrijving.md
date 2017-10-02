@@ -14,7 +14,7 @@ en kan vervolgens gebruikt worden om het systeem te optimaliseren en te controle
 
 Hieronder volgen enkele concepten die wij willen gaan uitwerken omtrent Home Automation:
 
-### 1.	Slimme Deurbel:
+### 1.	Slimme Deurbel
 
 Concept: Men belt aan en vervolgens wordt er via de LoRa technologie een signaal gestuurd naar de hoofd unit, deze stuurt 
 vervolgens een bericht naar je telefoon dat er iemand heeft aangebeld, op deze manier mis je nooit meer de bel.
