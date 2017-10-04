@@ -1,4 +1,25 @@
 # Internet of Things - Home Automation
 
-### Doel van het product
-Home automation en monitoring door middel van Speech to Text technologie
+## Logboek 
+
+### Week 3 Tim de Nooijer:
+Tim:
+Afgwerkt:
+-
+Planning:
+-
+Gejo:
+Afgwerkt:
+-
+Planning:
+-
+Steven:
+Afgwerkt:
+-
+Planning:
+-
+Simon:
+Afgwerkt:
+-
+Planning:
+-
