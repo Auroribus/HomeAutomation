@@ -7,13 +7,14 @@ Tim:
 - Planning:
 
 Gejo:
-Afgwerkt:
-Planning:
+- Afgwerkt:
+- Planning:
 
 Steven:
-Afgwerkt:
+- Afgwerkt:
+- Planning:
 
 Simon:
-Afgwerkt:
-Planning:
+- Afgwerkt:
+- Planning:
 
