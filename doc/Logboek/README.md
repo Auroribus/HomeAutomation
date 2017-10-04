@@ -1,7 +1,7 @@
 # Internet of Things - Home Automation
 
-## Logboek Week 3 Tim de Nooijer:
-
+## Logboek Week 3 Tim de Nooijer: 
+####
 Tim:
 Afgwerkt:
 -
