@@ -16,3 +16,17 @@ Je moet een sensor node maken dat temperatuur en licht log. Dit is werk voor een
 dashboard, de andere verzorgt het netwerk tussen de sensor en de backend server. Er is nog wel een student die geen taak heeft.
 Deze kan dan bv een sensor node ontwikkelen die het opengaan en sluiten van een deur registreert. Deze data kan relevant 
 zijn voor het vergelijken van de data afkomstig van de sensoren.
+
+### Tijdelijke taakverdeling:
+
+#### Steven Dijcks:
+- Voice to speech op de arduino werkend krijgen
+
+#### Tim de Nooijer:
+- LoRa opbouwen en werkend krijgen 
+
+#### Gejo Ossenblok:
+-
+
+#### Simon :
+-
