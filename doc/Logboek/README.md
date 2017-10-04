@@ -3,6 +3,7 @@
 ## Logboek 
 
 ### Week 3 Tim de Nooijer:
+
 Tim:
 Afgwerkt:
 -
