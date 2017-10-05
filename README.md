@@ -165,5 +165,5 @@ zijn voor het vergelijken van de data afkomstig van de sensoren.
 
 ### Gejo Ossenblock
 ### Simon Broos
-### Timme de Nooijer
+### Timmy de Nooijer
 ### Steven Dijcks
