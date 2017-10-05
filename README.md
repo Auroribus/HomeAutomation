@@ -1,6 +1,5 @@
 # Internet of Things - 
 ## Beschrijving Project
-# beschrijving van het product
 
 Wij willen ervoor zorgen dat huizen geautomatiseerd en geoptimaliseerd worden, ofwel “Smart”. Dit voornamelijk door het plaatsen
 van sensoren en gebruik te maken van een applicatie voor het aansturen van het systeem. Het is vervolgens de bedoeling dat 
