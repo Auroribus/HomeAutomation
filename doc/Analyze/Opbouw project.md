@@ -6,9 +6,7 @@ Je kan al deze documentatie gebruiken voor de beschrijving van het product. Dit 
 
 ### Blokdiagram
 
-Je voorziet zeker een blokdiagram met een overzicht van alle logische blokken van het gehele project. Dit document zal je zeker helpen met het opdelen van het werk. Elk blok moet kunnen communiceren met andere blokken. De afspraken kan je op voorhand maken en dan kan elk team member afzonderlijk werken en kan je meer features toevoegen aan je product.
-
-Visualiseer ook de flow van je data. In een IoT product kan informatie ook afkomstig zijn van devices, het gaat hier verder dan een simpele database verbinding.
+![alt text](https://github.com/AP-Elektronica-ICT/iot17-iot-timmy-gejo-simon-steven/blob/master/doc/Images/BlokDiagram_IoT.png)
 
 ### Fysiek design (Optioneel)
 
