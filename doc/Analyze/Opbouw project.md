@@ -16,7 +16,19 @@ Indien gewenst mag een tekening toevoegen van het finale eindproduct. Dit kan ee
 
 ### Flowcharts
 
-Maak voor de embedded systemen van je project een flowchart waarmee je de logica weergeeft die het systeem moet bevatten. Dit document is een Work In Progress. De bedoeling hier is dat je al eens nadenkt over de logica in je systeem terwijl je nog niks hebt geimplementeerd. Update dit document naar gelang de vorderingen van het project.
+FlowChart Slimme deurbel
+
+![alt text](https://github.com/AP-Elektronica-ICT/iot17-iot-timmy-gejo-simon-steven/blob/master/doc/Images/2017-10-05_15-37-33.png "Slimme deurbell")
+
+
+FlowChart Slim Slot
+
+![alt text](https://github.com/AP-Elektronica-ICT/iot17-iot-timmy-gejo-simon-steven/blob/master/doc/Images/VISIO_2017-10-05_15-37-40.png "slim slot")
+
+
+Flowchart licht aansturen met stem
+
+![alt text](https://github.com/AP-Elektronica-ICT/iot17-iot-timmy-gejo-simon-steven/blob/master/doc/Images/VISIO_2017-10-05_15-38-02.png "licht aan sturen met stem")
 
 ### Test document
 
