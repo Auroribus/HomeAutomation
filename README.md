@@ -162,3 +162,8 @@ zijn voor het vergelijken van de data afkomstig van de sensoren.
 
 
 ## Groepsleden
+
+### Gejo Ossenblock
+### Simon Broos
+### Timme de Nooijer
+### Steven Dijcks
