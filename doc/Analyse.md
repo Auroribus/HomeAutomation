@@ -101,16 +101,16 @@ Hierbij moeten we vooral opletten met de veiligheid van het slot, zodat men dit 
    10. Make respons for detection door
 
 #### 5. As a user I want to connect my nodes with a long range network system.
-   1. 
-   2.
-   3.
-   4.
-   5.
-   6.
-   7.
-   8.
-   9.
-   10.
+   1. Setting up the gateway
+   2. using ethernet for setup
+   3. setting up the network
+   4. installing IoT-x software
+   5. Configuring the LoRa packet forwarder
+   6. lora shield
+   7. Buidling the device
+   8. Building web application
+   9. registering device on IoT-x
+   10. consuming the data over MQTT
    
 ## Benodigdheden
 
