@@ -118,8 +118,8 @@ Voor het product te maken heb je natuurlijk materialen nodig. Dit kunnen COTS (C
 en/of apparaten zijn (bv. Raspberry Pi, Arduino, ...). Voor het project moet je een elektronische module volledig zelf 
 ontwikkelen probeer hiervoor al de nodige componenten te bepalen.
  - COTS, Raspberry pi
-   ..-Voeding (netspanning)
-   -LoRaWAN module voor verbinding.
+ ..-Voeding (netspanning)
+   LoRaWAN module voor verbinding.
  - Elektronische module, die licht kan aanpassen.
    -PWM Dimmer
    -LoRaWAN module
