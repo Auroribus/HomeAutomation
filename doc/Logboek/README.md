@@ -7,14 +7,14 @@ Tim:
 - Planning: LoRaWan setup beginnen en afmaken.
 
 Gejo:
-- Afgwerkt:
-- Planning:
+- Afgwerkt: Engeneering tasks afgewerkt, product vergelijking afgewerkt, blokkendiagram afgewerkt.
+- Planning: Opzetten van een design voor de elektronische nodes en modules.
 
 Steven:
-- Afgwerkt:
-- Planning:
+- Afgwerkt: Doel van het product afgewerkt, beschrijving product afgewerkt, userstories afgewerkt, samengewerkt aan blokken diagram, groepsleden toegevoegd, onderzoek plus uitvoering van service vergelijking voor speech to text.
+- Planning: opzetten, uitvoeren en testen van speech to text.
 
 Simon:
-- Afgwerkt:
-- Planning:
+- Afgwerkt: Flowcharts afgewerkt, Engeneering stories afgewerkt, user stories afgewerkt
+- Planning: Opzetten van een design voor de elektronische nodes en modules.
 
