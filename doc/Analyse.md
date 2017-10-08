@@ -117,11 +117,32 @@ Hierbij moeten we vooral opletten met de veiligheid van het slot, zodat men dit 
 Voor het product te maken heb je natuurlijk materialen nodig. Dit kunnen COTS (Commercial of the Shelve) materialen 
 en/of apparaten zijn (bv. Raspberry Pi, Arduino, ...). Voor het project moet je een elektronische module volledig zelf 
 ontwikkelen probeer hiervoor al de nodige componenten te bepalen.
-
+ - COTS, Raspberry pi
+   -Voeding (netspanning)
+   -LoRaWAN module voor verbinding.
+ - Elektronische module, die licht kan aanpassen.
+   -PWM Dimmer
+   -LoRaWAN module
+   -Processor (Atmega328)
+   -Voeding (ICR18650-26J Samsung)
+ - Elektronische module, die deur met slot kan open en sluiten.
+   -LoRaWAN module
+   -Processor (Atmega328)
+   -Motor voor de slot
+   -Voeding (ICR18650-26J Samsung)
+ - Elektronische module, die deur kan openen en sluiten via motor.
+   -LoRaWAN module
+   -Processor (Atmega328)
+   -Motor voor de deur
+   -Voeding (ICR18650-26J Samsung)
+ - Microfoon, voor Alexa speech to text
+   - USB
 ### Product / service vergelijkingen
 Als je bepaalde off the shelve producten selecteert, staaf deze keuze dan. Je kan niet zomaar zeggen: 
 "ik pak dit of dat.". Je onderbouwt de selectie. Dit doe je ook voor eventuele services die je wilt gebruiken. 
 Je verkent de mogelijke product of service markten.
+
+Nij de product / service vergelijking hebben voor product de Atmega328 gekozen voor de ingebouwde PWM dimmer functie om hiermee het licht te kunnen regelen. Ook hebben we hiervoor gekozen doordat de prijs laag is. Bij service vergelijking hebben we gekozen voor ZELXA als speech to text te gebruiken, dit is omdat er veel documentatie bestaat online en is het meeste ondersteunt voor projecten.
 
 ### Materialen lijst
 Hier defineer je een simpele Bill Of Materials.
