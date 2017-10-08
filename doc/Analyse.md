@@ -113,7 +113,6 @@ Hierbij moeten we vooral opletten met de veiligheid van het slot, zodat men dit 
    10. consuming the data over MQTT
 
 ## Opbouw project
-# Opbouw project
 
 Opbouw project bestaat uit de details van je project. Je voorziet hier de eerste analyse van de feitelijke werking van je product. Als voorbeeld, een high level blokdiagram hoor hier zeker thuis.
 
