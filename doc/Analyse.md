@@ -124,20 +124,20 @@ ontwikkelen probeer hiervoor al de nodige componenten te bepalen.
  - Elektronische module, die licht kan aanpassen.
    1. PWM Dimmer
    2. LoRaWAN module
-   -Processor (Atmega328)
-   -Voeding (ICR18650-26J Samsung)
+   3. Processor (Atmega328)
+   4. Voeding (ICR18650-26J Samsung)
  - Elektronische module, die deur met slot kan open en sluiten.
-   -LoRaWAN module
-   -Processor (Atmega328)
-   -Motor voor de slot
-   -Voeding (ICR18650-26J Samsung)
+   1. LoRaWAN module
+   2. Processor (Atmega328)
+   3. Motor voor de slot
+   4. Voeding (ICR18650-26J Samsung)
  - Elektronische module, die deur kan openen en sluiten via motor.
-   -LoRaWAN module
-   -Processor (Atmega328)
-   -Motor voor de deur
-   -Voeding (ICR18650-26J Samsung)
+   1. LoRaWAN module
+   2. Processor (Atmega328)
+   3. Motor voor de deur
+   4. Voeding (ICR18650-26J Samsung)
  - Microfoon, voor Alexa speech to text
-   - USB
+   1. USB
 ### Product / service vergelijkingen
 Als je bepaalde off the shelve producten selecteert, staaf deze keuze dan. Je kan niet zomaar zeggen: 
 "ik pak dit of dat.". Je onderbouwt de selectie. Dit doe je ook voor eventuele services die je wilt gebruiken. 
