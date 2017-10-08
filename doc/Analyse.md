@@ -143,7 +143,7 @@ Als je bepaalde off the shelve producten selecteert, staaf deze keuze dan. Je ka
 "ik pak dit of dat.". Je onderbouwt de selectie. Dit doe je ook voor eventuele services die je wilt gebruiken. 
 Je verkent de mogelijke product of service markten.
 
-Nij de product / service vergelijking hebben voor product de Atmega328 gekozen voor de ingebouwde PWM dimmer functie om hiermee het licht te kunnen regelen. Ook hebben we hiervoor gekozen doordat de prijs laag is. Bij service vergelijking hebben we gekozen voor ZELXA als speech to text te gebruiken, dit is omdat er veel documentatie bestaat online en is het meeste ondersteunt voor projecten.
+Bij de product / service vergelijking hebben voor product de Atmega328 gekozen voor de ingebouwde PWM dimmer functie om hiermee het licht te kunnen regelen. Ook hebben we hiervoor gekozen doordat de prijs van een Atmega rond de anderhalf euro bevind en de snellere en betere processoren (inplaats van 8 bits een 32 bits)rond de 4 a 5 euro. Bij service vergelijking hebben we gekozen voor AELXA als speech to text te gebruiken, dit is omdat er veel documentatie bestaat online en is het meeste ondersteunt voor projecten.
 
 ### Materialen lijst
 - 3 losse voedingen
