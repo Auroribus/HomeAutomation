@@ -146,7 +146,10 @@ Je verkent de mogelijke product of service markten.
 Nij de product / service vergelijking hebben voor product de Atmega328 gekozen voor de ingebouwde PWM dimmer functie om hiermee het licht te kunnen regelen. Ook hebben we hiervoor gekozen doordat de prijs laag is. Bij service vergelijking hebben we gekozen voor ZELXA als speech to text te gebruiken, dit is omdat er veel documentatie bestaat online en is het meeste ondersteunt voor projecten.
 
 ### Materialen lijst
-Hier defineer je een simpele Bill Of Materials.
+- 3 losse voedingen
+- 4 LoRaWAN modules
+- 3 Atmega328 Processoren
+- 2 Verschillenden motoren
 
 ## Taakverdeling
 
