@@ -117,9 +117,9 @@ Hierbij moeten we vooral opletten met de veiligheid van het slot, zodat men dit 
 Voor het product te maken heb je natuurlijk materialen nodig. Dit kunnen COTS (Commercial of the Shelve) materialen 
 en/of apparaten zijn (bv. Raspberry Pi, Arduino, ...). Voor het project moet je een elektronische module volledig zelf 
 ontwikkelen probeer hiervoor al de nodige componenten te bepalen.
- - COTS, Raspberry pi
-  -Voeding (netspanning)
-   LoRaWAN module voor verbinding.
+ 1. COTS, Raspberry pi
+ -Voeding (netspanning)
+ -LoRaWAN module voor verbinding.
  - Elektronische module, die licht kan aanpassen.
    -PWM Dimmer
    -LoRaWAN module
