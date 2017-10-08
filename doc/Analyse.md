@@ -117,12 +117,13 @@ Hierbij moeten we vooral opletten met de veiligheid van het slot, zodat men dit 
 Voor het product te maken heb je natuurlijk materialen nodig. Dit kunnen COTS (Commercial of the Shelve) materialen 
 en/of apparaten zijn (bv. Raspberry Pi, Arduino, ...). Voor het project moet je een elektronische module volledig zelf 
 ontwikkelen probeer hiervoor al de nodige componenten te bepalen.
- 1. COTS, Raspberry pi
- -Voeding (netspanning)
- -LoRaWAN module voor verbinding.
+
+ - COTS, Raspberry pi
+   1. Voeding (netspanning)
+   2. LoRaWAN module voor verbinding.
  - Elektronische module, die licht kan aanpassen.
-   -PWM Dimmer
-   -LoRaWAN module
+   1. PWM Dimmer
+   2. LoRaWAN module
    -Processor (Atmega328)
    -Voeding (ICR18650-26J Samsung)
  - Elektronische module, die deur met slot kan open en sluiten.
