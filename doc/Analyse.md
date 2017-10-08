@@ -173,7 +173,7 @@ zijn voor het vergelijken van de data afkomstig van de sensoren.
 ### Tijdelijke taakverdeling:
 
 #### Steven Dijcks:
-- Voice to speech op de arduino werkend krijgen
+- Voice to speech op de Raspberry Pi werkend krijgen
 
 #### Tim de Nooijer:
 - LoRa opbouwen en werkend krijgen 
