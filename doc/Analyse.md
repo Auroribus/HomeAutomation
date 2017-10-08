@@ -154,10 +154,10 @@ zijn voor het vergelijken van de data afkomstig van de sensoren.
 - LoRa opbouwen en werkend krijgen 
 
 #### Gejo Ossenblok:
--
+- Een sensor node maken dat licht dimmer kan bijhouden en aanpassen.
 
 #### Simon :
--
+- Een node ontwikkelen die de deur kan laten opengaan door via MQTT
 
 
 
