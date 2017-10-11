@@ -155,22 +155,44 @@ ontwikkelen probeer hiervoor al de nodige componenten te bepalen.
 
  - COTS, Raspberry pi
    1. Voeding (netspanning)
-   2. LoRaWAN module voor verbinding.
+   2. LoRaWAN module voor verbinding
+   3. LoRaWAN shield
  - Elektronische module, die licht kan aanpassen.
-   1. PWM Dimmer
+   1. 100nF capacitor
    2. LoRaWAN module
    3. Processor (Atmega328)
    4. Voeding (ICR18650-26J Samsung)
- - Elektronische module, die deur met slot kan open en sluiten.
+   5. 2x 22pF capacitors
+   6. Crystal oscillator 16 Mhz
+   7. FT232RL FTDI USB To TTL Serial Converter Adapter Module
+ - Elektronische module, die bel registreerd.
    1. LoRaWAN module
    2. Processor (Atmega328)
-   3. Motor voor de slot
-   4. Voeding (ICR18650-26J Samsung)
+   3. Voeding (ICR18650-26J Samsung)
+   4. Drukknop
+   5. Piëzo-zoemer 85 dB 5 V/DC
+   6. 100nF capacitor
+   7. 2x 22pF capacitors
+   8. Crystal oscillator 16 Mhz
+   9. FT232RL FTDI USB To TTL Serial Converter Adapter Module
  - Elektronische module, die deur kan openen en sluiten via motor.
    1. LoRaWAN module
    2. Processor (Atmega328)
    3. Motor voor de deur
    4. Voeding (ICR18650-26J Samsung)
+   5. 100nF capacitor
+   6. 2x 22pF capacitors
+   7. Crystal oscillator 16 Mhz
+   8. FT232RL FTDI USB To TTL Serial Converter Adapter Module
+ - Elektronische module, die temperatuur opmeet.
+   1. LoRaWAN module
+   2. Processor (Atmega328)
+   3. Voeding (ICR18650-26J Samsung)
+   4. LM35
+   5. 100nF capacitor
+   6. 2x 22pF capacitors
+   7. Crystal oscillator 16 Mhz
+   8. FT232RL FTDI USB To TTL Serial Converter Adapter Module
  - Microfoon, voor Alexa speech to text
    1. USB
 ### Product / service vergelijkingen
@@ -181,14 +203,16 @@ Je verkent de mogelijke product of service markten.
 Bij de product / service vergelijking hebben voor product de Atmega328 gekozen voor de ingebouwde PWM dimmer functie om hiermee het licht te kunnen regelen. Ook hebben we hiervoor gekozen doordat de prijs van een Atmega rond de anderhalf euro bevind en de snellere en betere processoren (inplaats van 8 bits een 32 bits)rond de 4 a 5 euro. Bij service vergelijking hebben we gekozen voor AELXA als speech to text te gebruiken, dit is omdat er veel documentatie bestaat online en is het meeste ondersteunt voor projecten.
 
 ### Materialen lijst
-- 3 losse voedingen
-- 4 LoRaWAN modules
-- 3 Atmega328 Processoren
-- 2 Verschillenden motoren
-- 6 22pF capacitors
-- 3 100nF capacitors
-- 3 crystal oscillator 16 Mhz
-- 1 temp sensor LM35
+- 4 losse voedingen
+- 5 LoRaWAN modules
+- 4 Atmega328 Processoren
+- 1 Motor
+- 8 22pF capacitors
+- 4 100nF capacitors
+- 4 Crystal oscillator 16 Mhz
+- 1 Temp sensor LM35
+- 1 Piëzo-zoemer 85 dB 5 V/DC
+- 1 Drukknop
 ## Taakverdeling
 
 In dit stuk van de analyse moet er duidelijk gemaakt worden hoe jullie als groep tegelijk aan het project gaan werken. 
