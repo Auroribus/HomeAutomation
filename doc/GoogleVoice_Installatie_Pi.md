@@ -1,5 +1,6 @@
 ## Google voice assistant SDK on the Raspberry Pi 3
 #### Source: https://developers.google.com/assistant/sdk/develop/python/hardware/setup
+```
 ### Benodigdheden:
 -	Raspberry Pi, aangeraden model 3 met OS Raspbian
 -	USB microfoon en speaker (mag ook een headset zijn)
@@ -61,7 +62,7 @@ a.	Allereerst, omdat we in een virtuele omgeving werken, moet je de RPi.GPIO lib
 i.	pip install RPi.GPIO (pip3 voor python3)
 b.	Vervolgens kun je in je eigen project directory, de file: hotword.py zodanig aanpassen dat je de GPIO pinnen kunt aansturen
 c.	Voorbeeld script om via de commando’s: “lights on” en “lights off” een ledje op pin 17 aan en uit te zetten met je stem:
-
+```
 
 ```
 from __future__ import print_function
