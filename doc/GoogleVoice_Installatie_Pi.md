@@ -62,7 +62,7 @@ f.	Uitvoeren van de tool, wanneer je deze commando runt via de terminal op de Pi
 g.	Start de Google Assistant SDK sample op je Pi:
     i.	(env) google-assistant-demo
     ii.	Om te testen zeg: “Ok Google”, en stel een vraag
-    ```
+```
 
 #### 3.	Als alles werkt en je kunt met Google Voice spreken, kun je vervolgens alles kopiëren naar een eigen project met de volgende commando’s:
 ```
@@ -77,7 +77,8 @@ b.	Vervolgens kun je in je eigen project directory, de file: hotword.py zodanig 
 c.	Voorbeeld script om via de commando’s: “lights on” en “lights off” een ledje op pin 17 aan en uit te zetten met je stem:
 ```
 #### Code snippet:
-```
+ ```
+
 from __future__ import print_function
 import RPi.GPIO as GPIO
 
@@ -145,8 +146,8 @@ if __name__ == '__main__':
     main()
 
 
+  ```
+
  
- 
- ```
 
 
