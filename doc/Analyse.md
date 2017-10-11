@@ -185,7 +185,10 @@ Bij de product / service vergelijking hebben voor product de Atmega328 gekozen v
 - 4 LoRaWAN modules
 - 3 Atmega328 Processoren
 - 2 Verschillenden motoren
-
+- 6 22pF capacitors
+- 3 100nF capacitors
+- 3 crystal oscillator 16 Mhz
+- 1 temp sensor LM35
 ## Taakverdeling
 
 In dit stuk van de analyse moet er duidelijk gemaakt worden hoe jullie als groep tegelijk aan het project gaan werken. 
