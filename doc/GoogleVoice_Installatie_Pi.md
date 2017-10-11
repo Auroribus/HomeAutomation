@@ -8,19 +8,19 @@
 
 ### 1.	Configureren van een Google Developer project:
 a.	Om toegang te krijgen tot de Google Assistant API, moet je een aantal stappen uitvoeren, dit zijn de volgenden:
-i.	Op de projects page, selecteer een bestaand project of maak een nieuwe aan
-ii.	Zet de Google Assistant API aan in je project
-iii.	Creëer een OAUTH Client ID
-iv.	Download de client ID file, via het pijltje naar beneden aan de rechterkant van het scherm
-v.	Wanneer je deze stappen niet hebt uitgevoerd op de raspberry pi: 
+	i.	Op de projects page, selecteer een bestaand project of maak een nieuwe aan
+	ii.	Zet de Google Assistant API aan in je project
+	iii.	Creëer een OAUTH Client ID
+	iv.	Download de client ID file, via het pijltje naar beneden aan de rechterkant van het scherm
+	v.	Wanneer je deze stappen niet hebt uitgevoerd op de raspberry pi: 
 deze file MOET gekopieerd worden naar de Raspberry Pi onder /home/pi 
 dit kan gedaan worden met bijvoorbeeld WinSCP
 b.	Om gebruik te kunnen maken van de Google Assistant, moet je bepaalde data delen met Google
-i.	Open de Activity Controls Page voor je Google Account
-ii.	Deel de volgende onderdelen: 
-1.	Web & App activity
-2.	Device Information
-3.	Voice & Audio Activity
+	i.	Open de Activity Controls Page voor je Google Account
+	ii.	Deel de volgende onderdelen: 
+		1.	Web & App activity
+		2.	Device Information
+		3.	Voice & Audio Activity
 c.	Vervolgens gaan we de library downloaden en testen op de Pi
 
 ### 2.	Library downloaden en testen:
