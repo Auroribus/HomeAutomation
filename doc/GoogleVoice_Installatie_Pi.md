@@ -1,12 +1,12 @@
-Google voice assistant SDK on the Raspberry Pi 3
-Source: https://developers.google.com/assistant/sdk/develop/python/hardware/setup
-Benodigdheden:
+##Google voice assistant SDK on the Raspberry Pi 3
+####Source: https://developers.google.com/assistant/sdk/develop/python/hardware/setup
+###Benodigdheden:
 -	Raspberry Pi, aangeraden model 3 met OS Raspbian
 -	USB microfoon en speaker (mag ook een headset zijn)
 -	SSH: VNC viewer om te kunnen SSH met grafische weergave
 -	Anders een scherm, toetsenbord en muis
 
-1.	Configureren van een Google Developer project:
+###1.	Configureren van een Google Developer project:
 a.	Om toegang te krijgen tot de Google Assistant API, moet je een aantal stappen uitvoeren, dit zijn de volgenden:
 i.	Op de projects page, selecteer een bestaand project of maak een nieuwe aan
 ii.	Zet de Google Assistant API aan in je project
@@ -23,7 +23,7 @@ ii.	Deel de volgende onderdelen:
 3.	Voice & Audio Activity
 c.	Vervolgens gaan we de library downloaden en testen op de Pi
 
-2.	Library downloaden en testen:
+###2.	Library downloaden en testen:
 a.	Allereerst gaan we een Python virtuele omgeving opzetten (dit kun je overslaan als dit al geinstalleerd is op je Pi)
 i.	Python 3:
 1.	sudo apt-get update
@@ -52,81 +52,83 @@ g.	Start de Google Assistant SDK sample op je Pi:
 i.	(env) google-assistant-demo
 ii.	Om te testen zeg: “Ok Google”, en stel een vraag
 
-3.	Als alles werkt en je kunt met Google Voice spreken, kun je vervolgens alles kopiëren naar een eigen project met de volgende commando’s:
+###3.	Wanneer alles werkt en je kunt met Google Voice spreken, kun je vervolgens alles kopiëren naar een eigen project met de volgende commando’s:
 a.	Git clone https://github.com/googlesamples/assistant-sdk-python
 b.	cp -r assistant-sdk-python/google-assistant-sdk/googlesamples/assistant/library [directory name project]
 
-4.	Nu kunnen we speech to voice gaan gebruiken om GPIO pinnen aan te sturen op de Pi
+###4.	Nu kunnen we speech to voice gaan gebruiken om GPIO pinnen aan te sturen op de Pi
 a.	Allereerst, omdat we in een virtuele omgeving werken, moet je de RPi.GPIO library installeren:
 i.	pip install RPi.GPIO (pip3 voor python3)
 b.	Vervolgens kun je in je eigen project directory, de file: hotword.py zodanig aanpassen dat je de GPIO pinnen kunt aansturen
 c.	Voorbeeld script om via de commando’s: “lights on” en “lights off” een ledje op pin 17 aan en uit te zetten met je stem:
-5.	from __future__ import print_function
-6.	import RPi.GPIO as GPIO
-7.	
-8.	
-9.	GPIO.setmode(GPIO.BCM)
-10.	GPIO.setwarnings(False)
-11.	
-12.	GPIO.setup(17,GPIO.OUT)
-13.	GPIO.output(17,0)
-14.	
-15.	import argparse
-16.	import os.path
-17.	import json
-18.	
-19.	import google.oauth2.credentials
-20.	
-21.	from google.assistant.library import Assistant
-22.	from google.assistant.library.event import EventType
-23.	from google.assistant.library.file_helpers import existing_file
-24.	
-25.	
-26.	def process_event(event):
-27.	    
-28.	    if event.type == EventType.ON_CONVERSATION_TURN_STARTED:
-29.	        print()
-30.	
-31.	    print(event)
-32.	    
-33.	    if event.type == EventType.ON_RECOGNIZING_SPEECH_FINISHED:
-34.	        print(event.args['text'])
-35.	        if event.args['text'] == 'lights on' :
-36.	            print("light on")
-37.	            GPIO.output(17,1)
-38.	        if event.args['text'] == 'lights off':
-39.	            print("light off")
-40.	            GPIO.output(17,0)        
-41.	    
-42.	    if (event.type == EventType.ON_CONVERSATION_TURN_FINISHED and
-43.	            event.args and not event.args['with_follow_on_turn']):
-44.	        print()
-45.	
-46.	
-47.	def main():
-48.	    parser = argparse.ArgumentParser(
-49.	        formatter_class=argparse.RawTextHelpFormatter)
-50.	    parser.add_argument('--credentials', type=existing_file,
-51.	                        metavar='OAUTH2_CREDENTIALS_FILE',
-52.	                        default=os.path.join(
-53.	                            os.path.expanduser('~/.config'),
-54.	                            'google-oauthlib-tool',
-55.	                            'credentials.json'
-56.	                        ),
-57.	                        help='Path to store and read OAuth2 credentials')
-58.	    args = parser.parse_args()
-59.	    with open(args.credentials, 'r') as f:
-60.	        credentials = google.oauth2.credentials.Credentials(token=None,
-61.	                                                            **json.load(f))
-62.	
-63.	    with Assistant(credentials) as assistant:
-64.	        for event in assistant.start():
-65.	            process_event(event)
-66.	
-67.	
-68.	if __name__ == '__main__':
-69.	    main()
-70.	
+
+
+	from __future__ import print_function
+import RPi.GPIO as GPIO
+
+
+GPIO.setmode(GPIO.BCM)
+GPIO.setwarnings(False)
+
+GPIO.setup(17,GPIO.OUT)
+GPIO.output(17,0)
+
+import argparse
+import os.path
+import json
+
+import google.oauth2.credentials
+
+from google.assistant.library import Assistant
+from google.assistant.library.event import EventType
+from google.assistant.library.file_helpers import existing_file
+
+
+def process_event(event):
+    
+    if event.type == EventType.ON_CONVERSATION_TURN_STARTED:
+        print()
+
+    print(event)
+    
+    if event.type == EventType.ON_RECOGNIZING_SPEECH_FINISHED:
+        print(event.args['text'])
+        if event.args['text'] == 'lights on' :
+            print("light on")
+            GPIO.output(17,1)
+        if event.args['text'] == 'lights off':
+            print("light off")
+            GPIO.output(17,0)        
+    
+    if (event.type == EventType.ON_CONVERSATION_TURN_FINISHED and
+            event.args and not event.args['with_follow_on_turn']):
+        print()
+
+
+def main():
+    parser = argparse.ArgumentParser(
+        formatter_class=argparse.RawTextHelpFormatter)
+    parser.add_argument('--credentials', type=existing_file,
+                        metavar='OAUTH2_CREDENTIALS_FILE',
+                        default=os.path.join(
+                            os.path.expanduser('~/.config'),
+                            'google-oauthlib-tool',
+                            'credentials.json'
+                        ),
+                        help='Path to store and read OAuth2 credentials')
+    args = parser.parse_args()
+    with open(args.credentials, 'r') as f:
+        credentials = google.oauth2.credentials.Credentials(token=None,
+                                                            **json.load(f))
+
+    with Assistant(credentials) as assistant:
+        for event in assistant.start():
+            process_event(event)
+
+
+if __name__ == '__main__':
+    main()
+
 
  
  
