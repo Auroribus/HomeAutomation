@@ -1,12 +1,12 @@
-##Google voice assistant SDK on the Raspberry Pi 3
-####Source: https://developers.google.com/assistant/sdk/develop/python/hardware/setup
-###Benodigdheden:
+## Google voice assistant SDK on the Raspberry Pi 3
+#### Source: https://developers.google.com/assistant/sdk/develop/python/hardware/setup
+### Benodigdheden:
 -	Raspberry Pi, aangeraden model 3 met OS Raspbian
 -	USB microfoon en speaker (mag ook een headset zijn)
 -	SSH: VNC viewer om te kunnen SSH met grafische weergave
 -	Anders een scherm, toetsenbord en muis
 
-###1.	Configureren van een Google Developer project:
+### 1.	Configureren van een Google Developer project:
 a.	Om toegang te krijgen tot de Google Assistant API, moet je een aantal stappen uitvoeren, dit zijn de volgenden:
 i.	Op de projects page, selecteer een bestaand project of maak een nieuwe aan
 ii.	Zet de Google Assistant API aan in je project
@@ -23,7 +23,7 @@ ii.	Deel de volgende onderdelen:
 3.	Voice & Audio Activity
 c.	Vervolgens gaan we de library downloaden en testen op de Pi
 
-###2.	Library downloaden en testen:
+### 2.	Library downloaden en testen:
 a.	Allereerst gaan we een Python virtuele omgeving opzetten (dit kun je overslaan als dit al geinstalleerd is op je Pi)
 i.	Python 3:
 1.	sudo apt-get update
@@ -52,11 +52,11 @@ g.	Start de Google Assistant SDK sample op je Pi:
 i.	(env) google-assistant-demo
 ii.	Om te testen zeg: “Ok Google”, en stel een vraag
 
-###3.	Wanneer alles werkt en je kunt met Google Voice spreken, kun je vervolgens alles kopiëren naar een eigen project met de volgende commando’s:
+### 3.	Wanneer alles werkt en je kunt met Google Voice spreken, kun je vervolgens alles kopiëren naar een eigen project met de volgende commando’s:
 a.	Git clone https://github.com/googlesamples/assistant-sdk-python
 b.	cp -r assistant-sdk-python/google-assistant-sdk/googlesamples/assistant/library [directory name project]
 
-###4.	Nu kunnen we speech to voice gaan gebruiken om GPIO pinnen aan te sturen op de Pi
+### 4.	Nu kunnen we speech to voice gaan gebruiken om GPIO pinnen aan te sturen op de Pi
 a.	Allereerst, omdat we in een virtuele omgeving werken, moet je de RPi.GPIO library installeren:
 i.	pip install RPi.GPIO (pip3 voor python3)
 b.	Vervolgens kun je in je eigen project directory, de file: hotword.py zodanig aanpassen dat je de GPIO pinnen kunt aansturen
