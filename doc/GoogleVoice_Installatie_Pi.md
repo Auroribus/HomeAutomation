@@ -19,12 +19,14 @@ a.	Om toegang te krijgen tot de Google Assistant API, moet je een aantal stappen
     v.	Wanneer je deze stappen niet hebt uitgevoerd op de raspberry pi: 
     deze file MOET gekopieerd worden naar de Raspberry Pi onder /home/pi 
     dit kan gedaan worden met bijvoorbeeld WinSCP
+    
 b.	Om gebruik te kunnen maken van de Google Assistant, moet je bepaalde data delen met Google
     i.	Open de Activity Controls Page voor je Google Account
     ii.	Deel de volgende onderdelen: 
         1.	Web & App activity
         2.	Device Information
         3.	Voice & Audio Activity
+        
 c.	Vervolgens gaan we de library downloaden en testen op de Pi
 ```
 #### 2.	Library downloaden en testen:
@@ -42,14 +44,21 @@ a.	Allereerst gaan we een Python virtuele omgeving opzetten (dit kun je overslaa
         2.	sudo apt-get install python-dev python-virtualenv
         3.	virtualenv env --no-site-packages env/bin/python -m pip install --upgrade pip setuptools 
         4.	source env/bin/activate
+        
 b.	Vervolgens in de virtual Environment via source env/bin/activate:
     i.	Python -m pip install --upgrade google-assistant-library 
+    
 c.	Open op je raspberry pi een browser en log in op je Google account (hierdoor heb je dus of een scherm nodig, of een programma zoals VNC viewer)
+
 d.	Nu gaan we de Google Assistant SDK toegang geven tot je account, hierdoor ga je de json file met het client ID nodig hebben dat we eerder hebben opgeslagen onder /home/pi
+
 e.	Installeren van de authorization tool:
+
 i.	Python -m pip install --upgrade google-auth-oauthlib[tool]
+
 f.	Uitvoeren van de tool, wanneer je deze commando runt via de terminal op de Pi zelf, dus niet via een SHH sessie, kun je de headless flag weglaten:
     i.	google-oatuhlib-tool --client-secrets [/path/to/client_secret.json file] --scope https://www.googleapis.com/auth/assistant-sdk-     prototype --save --headless 
+    
 g.	Start de Google Assistant SDK sample op je Pi:
     i.	(env) google-assistant-demo
     ii.	Om te testen zeg: “Ok Google”, en stel een vraag
@@ -67,7 +76,7 @@ a.	Allereerst, omdat we in een virtuele omgeving werken, moet je de RPi.GPIO lib
 b.	Vervolgens kun je in je eigen project directory, de file: hotword.py zodanig aanpassen dat je de GPIO pinnen kunt aansturen
 c.	Voorbeeld script om via de commando’s: “lights on” en “lights off” een ledje op pin 17 aan en uit te zetten met je stem:
 ```
-
+#### Code snippet:
 ```
 from __future__ import print_function
 import RPi.GPIO as GPIO
