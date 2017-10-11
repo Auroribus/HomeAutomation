@@ -59,7 +59,7 @@ dit kan gedaan worden met bijvoorbeeld WinSCP
 	3. Vervolgens kun je in je eigen project directory, de file: hotword.py zodanig aanpassen dat je de GPIO pinnen kunt aansturen
 	4. Voorbeeld script om via de commando’s: “lights on” en “lights off” een ledje op pin 17 aan en uit te zetten met je stem:
 
-
+```
 from __future__ import print_function
 import RPi.GPIO as GPIO
 
@@ -129,6 +129,6 @@ if __name__ == '__main__':
 
  
  
- 
+ ```
 
 
