@@ -77,7 +77,7 @@ b.	Vervolgens kun je in je eigen project directory, de file: hotword.py zodanig 
 c.	Voorbeeld script om via de commando’s: “lights on” en “lights off” een ledje op pin 17 aan en uit te zetten met je stem:
 ```
 #### Code snippet:
- ```
+ ```python
 
 from __future__ import print_function
 import RPi.GPIO as GPIO
