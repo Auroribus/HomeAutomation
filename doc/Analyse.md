@@ -39,7 +39,7 @@ Concept: Door je stem te gebruiken, kun je het licht aansturen. Uit of aan, mind
 zouden wij bij kunnen houden hoe efficiënt de lampen zijn. Dit kan dan vervolgens gebruikt worden 
 voor optimalisatie.
 
-### 4.	Slim slot
+### 4.	Slim slot (Vervangen)
 
 Concept: Op het moment moet men de deur nog handmatig op slot doen, wij willen dit vergemakkelijken door dit op dezelfde 
 manier te doen als met een auto. Op afstand je deur sluiten door op een knopje te drukken die een signaal naar het slot stuurt.
@@ -47,6 +47,10 @@ Doordat het slot op afstand geopend en gesloten kan worden, hoeft dit niet meer 
 tijdsbesparing hebben en daardoor een optimalisatie zijn. Zoals bij de bel, kunnen wij ook bij het slimme slot bijhouden 
 wanneer iemand het opent of sluit, en vervolgens een push notificatie uitsturen zodat de bewoners op de hoogte zijn. 
 Hierbij moeten we vooral opletten met de veiligheid van het slot, zodat men dit niet gemakkelijk kan hacken. 
+
+### 5.   Slimme Thermometer
+
+-
 
 ## Documentatie
 
