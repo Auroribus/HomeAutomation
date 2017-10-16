@@ -1,4 +1,5 @@
-/* Source: https://github.com/SensorsIot/LoRa
+/* Source code: https://github.com/SensorsIot/LoRa
+ * Soure library: https://github.com/matthijskooijman/arduino-lmic
  * Copyright (c) 2015 Thomas Telkamp and Matthijs Kooijman
  *
  * Permission is hereby granted, free of charge, to anyone
