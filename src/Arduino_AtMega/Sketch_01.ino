@@ -1,4 +1,5 @@
-/* Copyright (c) 2015 Thomas Telkamp and Matthijs Kooijman
+/* Source: https://github.com/SensorsIot/LoRa
+ * Copyright (c) 2015 Thomas Telkamp and Matthijs Kooijman
  *
  * Permission is hereby granted, free of charge, to anyone
  * obtaining a copy of this document and accompanying files,
