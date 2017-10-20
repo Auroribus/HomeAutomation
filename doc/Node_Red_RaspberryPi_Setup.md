@@ -1,7 +1,7 @@
 # Documentatie Node-Red op de Raspberry Pi
 #### -	Let Op!: Security, default heeft de node-red server geen beveiliging en kan iedereen die het IP heeft erop connecteren en berichten versturen
 
-##Installeren node-red op de Pi in een virtual environment:
+## Installeren node-red op de Pi in een virtual environment:
 
 
 ### Commando’s: 
