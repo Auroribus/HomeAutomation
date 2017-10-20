@@ -20,17 +20,15 @@ Optioneel:
 Run node-red bij startup van de Pi:
 sudo systemctl enable nodered.service
 
-Starten van de Node-Red:
-Commando’s:
-
-Starten van de server:
-node --max-old-space-size=256 red.js
-
 Toevoegen van security met een wachtwoord en username:
 -	Aanpassen van de: settings.js file
 -	in cli via: --settings|-s 
+
 Genereren van een hashed password
-Plaint-test wachtwoorden kunnen niet gebruikt worden in de settings.js file, daardoor moeten we het paswoord dus eerst hashen met het volgende commando:
+Plaint-tekst wachtwoorden kunnen niet gebruikt worden in de settings.js file, daardoor moeten we het paswoord dus eerst hashen met het volgende commando:
 Node-red-admin hash-pw
+
+Als bovenstaand commando niet werkt, moet allereerst de node-red-admin library geinstalleerd worden, dit met volgend commando:
+npm install -g node-red-admin
 
 ```
