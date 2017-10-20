@@ -7,7 +7,7 @@
 ### Commando’s: 
 ```python
 Start Virtual Environment:
-Source /env/bin/activate
+Source env/bin/activate
 
 Update bestaande Nodejs en Nodered:
 update-nodejs-and-nodered
@@ -32,4 +32,5 @@ Toevoegen van security met een wachtwoord en username:
 Genereren van een hashed password
 Plaint-test wachtwoorden kunnen niet gebruikt worden in de settings.js file, daardoor moeten we het paswoord dus eerst hashen met het volgende commando:
 Node-red-admin hash-pw
+
 ```
